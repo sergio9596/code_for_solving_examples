@@ -1,0 +1,27 @@
+// Addition
+function add(a, b) {
+    return a + b;
+}
+console.log(add(3, 4)); // Output: 7
+
+// Subtraction
+function subtract(a, b) {
+    return a - b;
+}
+console.log(subtract(7, 4)); // Output: 3
+
+// Multiplication
+function multiply(a, b) {
+    return a * b;
+}
+console.log(multiply(3, 4)); // Output: 12
+
+// Division
+function divide(a, b) {
+    if (b === 0) {
+        console.log("Cannot divide by 0.");
+        return;
+    }
+    return a / b;
+}
+console.log(divide(10, 2)); // Output: 5
